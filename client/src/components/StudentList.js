@@ -115,7 +115,7 @@ function StudentList({ reload }) {
   const [students, setStudents] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const studentsPerPage = 3;
+  const studentsPerPage = 5;
   const navigate = useNavigate();
 
   const fetchStudents = () => {
